@@ -1,0 +1,9 @@
+# Auto-detect text files and normalize to LF in repo
+* text=auto
+
+# Shell scripts: keep LF
+*.sh text eol=lf
+mvnw text eol=lf
+
+# Windows batch: keep CRLF
+*.cmd text eol=crlf

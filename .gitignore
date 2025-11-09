@@ -1,0 +1,20 @@
+target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+# Node/React
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+
+# Runtime data
+data/
+storage/
+
+# Env / OS / IDE
+*.env
+.DS_Store
+.idea/
+*.iml
